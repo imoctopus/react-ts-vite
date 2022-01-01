@@ -20,6 +20,7 @@ specifiers:
   autoprefixer: ^10.4.0
   commitizen: ^4.2.4
   cypress: ^9.1.1
+  cz-emoji-conventional: ^1.0.1
   eslint: ^8.5.0
   eslint-config-prettier: ^8.3.0
   eslint-import-resolver-typescript: ^2.5.0
@@ -73,6 +74,7 @@ devDependencies:
   autoprefixer: registry.npmmirror.com/autoprefixer/10.4.1_postcss@8.4.5
   commitizen: registry.npmmirror.com/commitizen/4.2.4_@types+node@17.0.5
   cypress: registry.npmmirror.com/cypress/9.2.0
+  cz-emoji-conventional: registry.npmmirror.com/cz-emoji-conventional/1.0.1_@types+node@17.0.5
   eslint: registry.npmmirror.com/eslint/8.6.0
   eslint-config-prettier: registry.nlark.com/eslint-config-prettier/8.3.0_eslint@8.6.0
   eslint-import-resolver-typescript: registry.npmmirror.com/eslint-import-resolver-typescript/2.5.0_b54597effeb7d09a84a334cc3c3dadae
@@ -5833,6 +5835,21 @@ packages:
       untildify: registry.nlark.com/untildify/4.0.0
       url: registry.npmmirror.com/url/0.11.0
       yauzl: registry.nlark.com/yauzl/2.10.0
+    dev: true
+
+  registry.npmmirror.com/cz-emoji-conventional/1.0.1_@types+node@17.0.5:
+    resolution: {integrity: sha1-jzESwqhRLmDINj2FRQfbqTnwigA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cz-emoji-conventional/download/cz-emoji-conventional-1.0.1.tgz}
+    id: registry.npmmirror.com/cz-emoji-conventional/1.0.1
+    name: cz-emoji-conventional
+    version: 1.0.1
+    dependencies:
+      chalk: registry.npmmirror.com/chalk/4.1.2
+      commitizen: registry.npmmirror.com/commitizen/4.2.4_@types+node@17.0.5
+      word-wrap: registry.nlark.com/word-wrap/1.2.3
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
     dev: true
 
   registry.npmmirror.com/data-urls/2.0.0:

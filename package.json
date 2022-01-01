@@ -1,5 +1,5 @@
 {
-  "name": "react-ts-vite-template",
+  "name": "react-ts-vite",
   "version": "0.1.0",
   "author": {
     "name": "Fabien MARIE-LOUISE",
@@ -32,7 +32,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "@commitlint/cz-commitlint"
+      "path": "node_modules/cz-emoji-conventional"
     }
   },
   "dependencies": {
@@ -59,6 +59,7 @@
     "autoprefixer": "^10.4.0",
     "commitizen": "^4.2.4",
     "cypress": "^9.1.1",
+    "cz-emoji-conventional": "^1.0.1",
     "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.5.0",
