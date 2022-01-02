@@ -1,11 +1,9 @@
 import { useState } from 'react';
-
-import styles from './HelloWorld.module.css';
+import styles from './helloword.module.less';
 
 interface HelloWorldProps {
   msg: string;
 }
-
 export default function HelloWorld(props: HelloWorldProps) {
   const [count, setCount] = useState(0);
 
